@@ -1,0 +1,311 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color:#434455;
+    background-color: #ffffff;
+    width: 1440px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+p{ margin: 0;}
+
+h1,h2,h3,h4,h5,h6{margin: 0;}
+
+.container{
+    width: 1158px;
+    padding-left: 15;
+    padding-left: 15;
+    margin: 0 auto;}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+}
+        
+
+.header{
+    padding-top: 24px;
+    padding-bottom: 24px;
+ 
+}
+.navigation{display: flex;}
+
+.logo-all {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-right: 76px;
+    
+}
+.studio-logo {
+    color: #2e2f42;
+}
+.adress{
+    font-style: normal;
+}
+
+.list{
+    display: flex;
+    gap: 40px;
+   
+}
+.logo-address{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.logo-address:hover {
+    color: #404BBF;
+}
+.logo-address:focus {
+    color:#404BBF;
+}
+
+
+.header-menu-list{
+    display: flex;
+    gap: 40px;}
+    
+
+.header-menu-item{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.header-menu-item:hover {
+    color: #404BBF;
+}
+
+.header-menu-item:focus {
+    color: #404BBF;
+}
+
+.section-one{
+    background: #2e2f42;
+    height: 600px;
+}
+.section-name{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+    width: 496px;
+    margin: auto;
+    margin-bottom: 48px;
+    padding-top: 188px;
+}
+
+
+
+.button-style {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background: #4d5ae5;
+    cursor: pointer;
+    width: 169px;
+    height: 56px;
+    border: none;
+    box-sizing: border-box;
+    margin: auto;  
+    display: block;
+}
+
+
+
+.button-style:hover{
+    background: #404bbf;
+    
+}
+.button-style:focus {
+    background: #404bbf;
+}
+
+.advantages-name{
+    color: #fff;
+}
+.advantages-positions-tru{
+display: flex;
+gap: 24px;
+margin-top: 120px;
+margin-bottom: 120px;
+}
+
+.advantages-positions{
+    background: #fff;
+    flex-basis: calc(100%-72/4);
+
+}
+.advantages-positions-names{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+.advantages-positions-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.team{
+    background-color: #F4F4FD;
+}
+.team-groupe{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
+    margin: auto;
+    padding-top: 120px;
+    padding-bottom: 72px;
+}
+
+.team-poziom{
+    display: flex;
+    gap: 24px;
+
+}
+
+.team-list{
+    background-color: #FFFFFF;
+    flex-basis: calc(100%-72/4);
+    margin-bottom: 120px;
+}
+.team-foto{
+    
+    background: #fff;
+}
+
+.team-names-persone{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.team-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+.team-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+.portfolio-groupe{
+    background: #fff;
+}
+
+
+.portfolio-groupe-name{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
+    margin-top: 120px;
+    margin-bottom: 72px;
+    
+}
+.portfolio-poziom{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    flex-basis: calc(100%-96/6);
+    margin-bottom: 120px;
+}
+.border-foto{
+    box-sizing: border-box;
+    flex-basis: calc(100%-96/6);
+    height: 420px;
+    border: 1px solid#e7e9fc;
+
+
+}
+.portfolio-poziom-one{
+    margin-left: 16px;
+    margin-top: 32px;
+}
+
+.portfolio-servises-name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.portfolio-servises-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    margin-top: 8px;
+    margin-bottom: 32px;
+}
+
+.down{
+
+    background: #2e2f42;
+    height: 312px;
+
+}
+.container-logo{
+    padding-top: 100px;
+    margin: start;
+}
+
+
+.logo-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    width: 264px;
+    margin-top: 16px;
+}
+
+
+.studio-logo-two{
+    color:#f4f4fd
+}
