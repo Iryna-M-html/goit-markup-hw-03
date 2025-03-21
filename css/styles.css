@@ -26,7 +26,7 @@ img{
 .container{
     width: 1158px;
     padding-left: 15;
-    padding-left: 15;
+    padding-right: 15;
     margin: 0 auto;}
 
 .header-container{
@@ -38,9 +38,12 @@ img{
 .header{
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc;
  
 }
-.navigation{display: flex;}
+.navigation{
+    display: flex;
+    align-items: center;}
 
 .logo-all {
     font-family: "Raleway", sans-serif;
@@ -92,6 +95,7 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
 }
 .header-menu-item:hover {
     color: #404BBF;
@@ -152,8 +156,7 @@ img{
 }
 
 .advantages-name{
-    color: #fff;
-    
+   visibility: hidden;
 }
 .advantages-positions-tru{
 display: flex;
@@ -267,8 +270,8 @@ margin-bottom: 120px;
 }
 .border-foto{
     box-sizing: border-box;
-    width: calc((100% - 48px) / 3)
-    flex-basis: calc((100%-96)/6);
+    width: calc((100% - 48px)/3)
+    
     height: 420px;
     
 
@@ -277,6 +280,7 @@ margin-bottom: 120px;
 .portfolio-poziom-one{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .portfolio-servises-name{
@@ -299,14 +303,13 @@ margin-bottom: 120px;
 }
 
 .down{
-
+    padding: 100px 0;
     background: #2e2f42;
     height: 312px;
 
 }
 .container-logo{
-    padding: 100px 0;
-    margin: start;
+       margin: start;
 }
 
 
